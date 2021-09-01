@@ -56,6 +56,7 @@ body{
 }
 .form form .field{
     display: flex;
+    position: relative;
     flex-direction: column;
     margin-bottom: 10px;
 }
@@ -64,6 +65,14 @@ body{
 }
 .form form .field input{
     outline: none;
+}
+.form form .field i{
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 .form form .input input{
     height: 40px;
